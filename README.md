@@ -1,21 +1,13 @@
-# Mrs.LUXIA 公式サイト Ver.4
+# Mrs.LUXIA Official Cover Page Ver.5
 
-GitHub Pagesへそのままアップロードできる完成版です。
+GitHub Pages用の表紙ページです。
 
-## アップロードするもの
-- index.html
-- assets フォルダ
-- robots.txt
-- sitemap.xml
-- manifest.webmanifest
-- README.md
+## 変更点
+- HOME / 料金 / セラピスト / 求人 / アクセス の5ボタンに整理
+- すべて `https://nipponbashi-mrsluxia.com/` 配下へリンク
+- 入口説明、料金表、セラピストカードなどの不要セクションを削除
+- LINE追従ボタンは削除
+- NEWSと相互リンクは残しています
 
-ZIPのままではなく、必ず解凍して中身をアップロードしてください。
-
-## Ver.4追加内容
-- ヒーロー背景の光粒子演出
-- 予約導線を強化
-- スマホ下部CTAを維持
-- 高級ホテル風の数値セクション追加
-- Footer導線強化
-- SEO/OGP/JSON-LD対応
+## アップロード方法
+ZIPを解凍し、中身をすべてGitHubに上書きアップロードしてください。
