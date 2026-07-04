@@ -2,3 +2,46 @@
 
 /* ===== Ver.4 polish ===== */
 .hero{isolation:isolate}.hero-ambient{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}.hero-ambient span{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--gold2);box-shadow:0 0 24px rgba(244,223,154,.9);opacity:.55;animation:luxParticle 8s ease-in-out infinite}.hero-ambient span:nth-child(1){left:8%;top:24%;animation-delay:.2s}.hero-ambient span:nth-child(2){right:20%;top:18%;animation-delay:1.4s}.hero-ambient span:nth-child(3){left:48%;bottom:18%;animation-delay:2.2s}.hero-ambient b{position:absolute;inset:8% -20%;background:linear-gradient(115deg,transparent 35%,rgba(244,223,154,.12),transparent 62%);filter:blur(2px);animation:luxSweep 7s ease-in-out infinite}.hero-badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.hero-badges span{border:1px solid var(--line);background:rgba(255,255,255,.055);border-radius:999px;padding:8px 13px;color:#e7dfce;font-family:'Noto Sans JP',sans-serif;font-size:.86rem}.luxury-band{width:min(1120px,calc(100% - 36px));margin:0 auto 40px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(135deg,rgba(255,255,255,.07),rgba(215,180,106,.07));padding:18px}.luxury-band div{text-align:center;border-right:1px solid var(--line);padding:18px 8px}.luxury-band div:last-child{border-right:0}.luxury-band strong{display:block;font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,6vw,4rem);line-height:1;color:var(--gold2);font-weight:600}.luxury-band span{font-family:'Noto Sans JP',sans-serif;color:var(--muted);letter-spacing:.08em}.footer-links{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}.footer-links a{border:1px solid var(--line);border-radius:999px;padding:7px 15px;color:var(--gold2);font-family:'Noto Sans JP',sans-serif;font-size:.9rem}.fixed-cta{bottom:calc(12px + env(safe-area-inset-bottom));}.site-footer{padding-bottom:calc(120px + env(safe-area-inset-bottom))}@keyframes luxParticle{0%,100%{transform:translate3d(0,0,0) scale(.7);opacity:.25}45%{transform:translate3d(26px,-34px,0) scale(1.35);opacity:.85}}@keyframes luxSweep{0%,45%{transform:translateX(-45%) rotate(-3deg);opacity:0}70%{opacity:1}100%{transform:translateX(45%) rotate(-3deg);opacity:0}}@media(max-width:700px){.luxury-band{grid-template-columns:1fr;padding:8px}.luxury-band div{border-right:0;border-bottom:1px solid var(--line)}.luxury-band div:last-child{border-bottom:0}.hero-badges span{font-size:.78rem;padding:7px 11px}.hero-visual{margin-top:8px}}
+
+/* Ver.6 partner banner: fixed, minimal, no marquee */
+.partner-section{
+  padding-top: 20px;
+  padding-bottom: 56px;
+}
+
+.partner-links{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;
+}
+
+.partner-links a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px 16px;
+  border:1px solid rgba(214,180,106,.38);
+  border-radius:16px;
+  background:rgba(255,255,255,.035);
+  box-shadow:0 16px 40px rgba(0,0,0,.22);
+  transition:transform .25s ease, border-color .25s ease, background .25s ease;
+}
+
+.partner-links a:hover{
+  transform:translateY(-2px);
+  border-color:rgba(244,223,154,.75);
+  background:rgba(255,255,255,.06);
+}
+
+.partner-links img{
+  display:block;
+  width:200px;
+  height:40px;
+  object-fit:contain;
+}
+
+.marquee,
+.marquee-inner{
+  animation:none!important;
+}
