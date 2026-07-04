@@ -1,17 +1,21 @@
-# Mrs.LUXIA 公式サイト Ver.2
+# Mrs.LUXIA 公式サイト Ver.4
 
-GitHub Pagesにそのままアップロードできる完成版です。
+GitHub Pagesへそのままアップロードできる完成版です。
 
-## 使い方
-1. このフォルダ内の `index.html`、`assets` フォルダをGitHubリポジトリへアップロード
-2. Settings → Pages で公開
-3. 相互リンク画像は `assets/img/link-01.svg` などを差し替え
-4. リンク先URLは `index.html` 内の `href` を変更
+## アップロードするもの
+- index.html
+- assets フォルダ
+- robots.txt
+- sitemap.xml
+- manifest.webmanifest
+- README.md
 
-## 主な内容
-- ネイビー×ゴールドの高級ホテル風デザイン
-- スマホ完全対応
-- アニメーション付き
-- SEO基本設定済み
-- OGP / favicon / 構造化データ入り
-- 相互リンク画像対応
+ZIPのままではなく、必ず解凍して中身をアップロードしてください。
+
+## Ver.4追加内容
+- ヒーロー背景の光粒子演出
+- 予約導線を強化
+- スマホ下部CTAを維持
+- 高級ホテル風の数値セクション追加
+- Footer導線強化
+- SEO/OGP/JSON-LD対応
