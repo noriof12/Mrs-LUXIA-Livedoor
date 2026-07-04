@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#061326"/><stop offset=".55" stop-color="#13294b"/><stop offset="1" stop-color="#050914"/></linearGradient><radialGradient id="r" cx="65%" cy="35%" r="55%"><stop stop-color="#d7b56d" stop-opacity=".34"/><stop offset="1" stop-color="#d7b56d" stop-opacity="0"/></radialGradient></defs>
+<rect width="1600" height="1000" fill="url(#g)"/><rect width="1600" height="1000" fill="url(#r)"/>
+<path d="M1040 185c145 0 263 150 263 335 0 204-118 320-263 320S777 724 777 520c0-185 118-335 263-335z" fill="#090d18" opacity=".68"/>
+<path d="M995 250c-60 50-93 147-88 241 8 155 93 265 177 330-26 15-80 25-139 7-115-35-199-168-189-322 8-128 94-250 239-256z" fill="#d7b56d" opacity=".18"/>
+<circle cx="1072" cy="308" r="84" fill="#d7b56d" opacity=".19"/>
+<path d="M210 745h1180" stroke="#d7b56d" stroke-opacity=".35"/><text x="120" y="185" fill="#d7b56d" font-family="Georgia" font-size="76" letter-spacing="10">Mrs.LUXIA</text><text x="124" y="245" fill="#fff" font-family="serif" font-size="24" letter-spacing="8">LUXURY RELAXATION SALON</text>
+</svg>
