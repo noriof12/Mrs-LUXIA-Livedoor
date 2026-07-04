@@ -1,3 +1,10 @@
+const loader=document.querySelector('.loader');
+window.addEventListener('load',()=>setTimeout(()=>loader?.classList.add('is-hide'),520));
+const progress=document.querySelector('.scroll-progress');
+const topBtn=document.querySelector('.to-top');
+const onScroll=()=>{const h=document.documentElement.scrollHeight-innerHeight;const p=h>0?(scrollY/h)*100:0;progress.style.width=p+'%';topBtn?.classList.toggle('is-show',scrollY>520)};
+document.addEventListener('scroll',onScroll,{passive:true});onScroll();
+topBtn?.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
 const navToggle=document.querySelector('.nav-toggle');
 const nav=document.querySelector('.global-nav');
 navToggle?.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');navToggle.setAttribute('aria-expanded',String(open));});
